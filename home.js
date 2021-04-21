@@ -30,6 +30,6 @@ router.post('/2', async function (req, res, next) {
     res.json("hihi");
 });
 
-router.get('/3', function (req, res) { res.send('3 pls'); });
+router.get('/3  4 5 6 ', function (req, res) { res.send('3 pls'); });
 
 module.exports = router;
